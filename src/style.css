@@ -38,6 +38,10 @@ button:hover {
   background-color: #91d8e4;
 }
 
+.active {
+  background-color: #91d8e4;
+}
+
 .sidebar-text {
   padding: 20px;
   padding-right: 150px;
@@ -50,4 +54,22 @@ button:hover {
 
 h3 {
   margin: 20px;
+}
+
+.add {
+  width: 50px;
+  height: 50px;
+}
+
+.input {
+  display: none;
+}
+
+.items {
+  text-align: center;
+  margin: 10px;
+  background-color: #82aae3;
+  padding: 10px;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }

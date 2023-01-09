@@ -11,11 +11,19 @@
     <div class="header"><h1>ToDo List</h1></div>
     <div class="content">
       <div class="sidebar">
-        <button><p class="sidebar-text">📥 Inbox</p></button>
-        <button><p class="sidebar-text">📅 Today</p></button>
-        <button><p class="sidebar-text">📆 This Week</p></button>
+        <button class="inbox"><p class="sidebar-text">📥 Inbox</p></button>
+        <button class="today"><p class="sidebar-text">📅 Today</p></button>
       </div>
-      <div class="main-content"><h3>Inbox</h3></div>
+      <div class="main-content">
+        <h3>Inbox</h3>
+        <button class="add">+</button>
+        <div class="input">
+          <label for="text"></label>
+          <input type="text" class="text" />
+          <input type="submit" class="submit" />
+        </div>
+        <div class="main"></div>
+      </div>
     </div>
     <script src="main.js"></script>
   </body>
