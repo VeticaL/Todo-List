@@ -1,1 +1,1 @@
-console.log("hklajjk");
+(()=>{"use strict";const e=document.querySelector(".add"),t=document.querySelector(".input"),n=document.querySelector(".submit");e.addEventListener("click",(function(){t.style.display="flex"})),n.addEventListener("click",(function(){!function(){const e=document.querySelector(".main"),t=document.createElement("p");t.classList.add("items"),t.textContent=document.querySelector(".text").value,e.appendChild(t)}()}))})();
